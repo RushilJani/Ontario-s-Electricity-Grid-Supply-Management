@@ -126,25 +126,7 @@ Interactive dashboard for grid operators and policymakers featuring:
 ## 🗂️ Repository Structure
 
 ```
-ontario-grid-optimization/
-├── data/
-│   ├── raw/                          ← original downloaded files
-│   └── processed/                    ← cleaned & merged master dataset
-├── notebooks/
-│   ├── 01_EDA.ipynb                  ← exploratory data analysis
-│   ├── 02_ensemble_demand.ipynb      ← LSTM + XGBoost + ARIMA + meta-learner
-│   ├── 03_ensemble_solar.ipynb       ← solar stacking ensemble
-│   ├── 04_ensemble_wind.ipynb        ← wind stacking ensemble
-│   └── 05_optimization.ipynb         ← LP dispatch optimizer
-├── scripts/
-│   ├── data_collector.py             ← data download & merge script
-│   ├── model_training.py             ← full ensemble training pipeline
-│   └── optimization_engine.py        ← LP optimizer script
-├── outputs/
-│   ├── figures/                      ← all charts & visualizations
-│   └── results/                      ← model metrics & optimizer results
-├── report/
-│   └── DAMO699_Final_Report.docx
+
 ├── README.md
 └── requirements.txt
 ```
